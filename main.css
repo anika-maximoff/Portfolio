@@ -72,11 +72,85 @@ nav li a{
 .banner-picture{
     size: 200px;
     width: 400px;
-}
+}  
 
 
 .banner-content{
     width: 480px;
     margin: 0 35px 0 200px;
     padding: 30px;
+}
+
+
+
+/*main style*/
+main{
+    max-width: 1140;
+    margin: 30 auto;
+}
+/*style of about*/
+.about{
+    background-image:url("./Images/pinkbgs.png");
+    text-align: center;
+    margin: 50px;
+    border-radius: 15px;
+    padding: 130px 150px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.about-item{
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+}
+
+/*style what I do */
+.skill{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 130px 150px;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+/*style of skills */
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px 24px;
+}
+
+
+.skill-image{
+    max-width: 50px;
+}
+
+
+.skill-container{
+    border-color: black;
+    padding:20px;
+    box-shadow: 0px 5px 10px 0px gray;
+    border-radius: 20px;
+}
+
+.skill-name{
+    font-weight:bold;
+    
+}
+
+
+/*Resume Section style*/
+.resume{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px 24px;
+}
+
+.resume-column{
+
 }
