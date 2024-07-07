@@ -1,0 +1,55 @@
+.open-sans-Normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+/*shared style*/
+.Text-size{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.Text-clr{
+    color: rgb(242, 41, 94);
+}
+
+.btn-clr{
+    background-color: rgb(242, 41, 94);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 15px 30px;
+    border-color: rgb(242, 41, 94) ;
+}
+
+
+
+/*nav sty;e*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    size: 20px;
+    margin: 10px;
+
+}
