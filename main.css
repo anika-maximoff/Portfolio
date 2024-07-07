@@ -54,3 +54,29 @@ nav li a{
     margin: 10px;
 
 }
+
+.Header{
+    background-image: url('./Images/developer-logo.png'),url('./Images/bgg.jpg');
+    background-repeat: no-repeat;
+    background-position: top left ;
+}
+
+/*Banner style*/
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.banner-picture{
+    size: 200px;
+    width: 400px;
+}
+
+
+.banner-content{
+    width: 480px;
+    margin: 0 35px 0 200px;
+    padding: 30px;
+}
